@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Teste</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Página de Teste</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="mt-5 bg-light">
+      <h2 class="text-dark">Seção 1</h2>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut efficitur ante, vitae ultrices lorem. Nullam nec elit vel velit lacinia gravida. Donec tincidunt lobortis risus id gravida. </p>
+    </section>
+
+    <section class="mt-5 bg-info">
+      <h2 class="text-white">Seção 2</h2>
+      <p class="text-light">Integer a ipsum id lorem fermentum lobortis. Nam vitae nisi nec quam maximus hendrerit. Nulla facilisi. Suspendisse sit amet condimentum enim. Proin vel ante nec metus venenatis cursus.</p>
+    </section>
+
+    <section class="mt-5 bg-warning">
+      <h2 class="text-white">Seção 3</h2>
+      <p class="text-muted">Curabitur sollicitudin lectus nec facilisis consectetur. In feugiat felis vel odio vehicula hendrerit. Vestibulum vel odio nec metus consequat tempus. Fusce nec odio metus. </p>
+    </section>
+  </div>
+
+  <footer class="bg-dark text-white mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          &copy; <span id="year"></span> Rafael Santos
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
